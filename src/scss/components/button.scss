@@ -1,0 +1,33 @@
+.basic__button {
+  &:hover {
+    background-color: darken($color: #00000012, $amount: 10);
+  }
+}
+
+.btn-2 {
+  @include button-format(blue, white);
+  @include size-format(180px, 60px);
+  &:hover {
+    background-color: darken($color: blue, $amount: 30);
+  }
+
+  &:active {
+    background-color: lighten($color: blue, $amount: 100);
+  }
+}
+
+.btn-3 {
+  @include button-format(red, white);
+  @include size-format(30px, 15px);
+  &:hover {
+    background-color: darken($color: red, $amount: 30);
+  }
+}
+
+.btn-4 {
+  @include button-format(greenyellow, black);
+  @include size-format(70px, 30px);
+  &:hover {
+    background-color: darken($color: greenyellow, $amount: 30);
+  }
+}

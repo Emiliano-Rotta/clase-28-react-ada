@@ -1,21 +1,19 @@
 .home_container {
-    background-color: red;
-    color: white;
-    
-    h1 {
-        background-color: gray;
-        color: blue;
+  background-color: red;
+  color: red;
 
-        p {
-            background-color: greenyellow;
-            color: blue;
+  h1 {
+    background-color: $color-setter;
+    color: blue;
 
-            &:hover {
-                background-color: blue;
-                color: greenyellow;  
-            }
+    p {
+      background-color: greenyellow;
+      color: blue;
 
-        }
-        
+      &:hover {
+        background-color: blue;
+        color: greenyellow;
+      }
     }
+  }
 }

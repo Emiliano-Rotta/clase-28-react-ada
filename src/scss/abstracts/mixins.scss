@@ -1,0 +1,9 @@
+@mixin button-format($bg-color, $text-color) {
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+@mixin size-format($width, $height) {
+  width: $width;
+  height: $height;
+}
